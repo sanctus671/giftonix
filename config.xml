@@ -83,17 +83,17 @@
             <string>Send Geolocated notifications</string>
         </edit-config>
         
-        <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+        <edit-config file="*-Info.plist" mode="merge" target="com.apple.developer.associated-domains">
             <array>
                 <string>applinks:share.giftonix.com</string>
             </array>
-        </config-file>
+        </edit-config>
 
-        <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
+        <edit-config file="*-Info.plist" mode="merge" target="com.apple.developer.associated-domains">
             <array>
                 <string>applinks:share.giftonix.com</string>
             </array>
-        </config-file>        
+        </edit-config>        
         
         <icon height="1024" src="resources/ios/icon/icon-1024.png" width="1024" />
         <icon height="29" src="resources/ios/icon/icon-small.png" width="29" />
