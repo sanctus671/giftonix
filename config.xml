@@ -82,6 +82,12 @@
         <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
             <string>Send Geolocated notifications</string>
         </edit-config>
+        <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+            <string>Select images for your profile</string>
+        </edit-config>
+        <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+            <string>Take pictures for your profile</string>
+        </edit-config>        
         <config-file parent="com.apple.developer.associated-domains" target="*-Info.plist">
             <array>
                 <string>applinks:share.giftonix.com</string>
