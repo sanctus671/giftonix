@@ -59,8 +59,6 @@
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_round.png" target="res/mipmap-xxxhdpi-v4/launcher_round.png" />
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_foreground.png" target="res/mipmap-xxxhdpi-v4/launcher_foreground.png" />
         <resource-file src="resources/android/styles.xml" target="res/values/styles.xml" />
-        
-        <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />
     </platform>
     <splash density="port-ldpi" platform="android" src="resources/android/splash/splash-port-ldpi.png" />
     <splash density="port-mdpi" platform="android" src="resources/android/splash/splash-port-mdpi.png" />
@@ -89,16 +87,18 @@
         </edit-config>
         <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
             <string>Take pictures for your profile</string>
-        </edit-config>  
-        <edit-config file="*-Info.plist" mode="merge" target="com.apple.developer.in-app-payments">
-            <string>merchant.giftonix.app</string>
-        </edit-config>       
+        </edit-config>        
         <config-file parent="com.apple.developer.associated-domains" target="*-Info.plist">
             <array>
                 <string>applinks:share.giftonix.com</string>
             </array>
         </config-file>
         
+        <config-file target="*-Info.plist" parent="com.apple.developer.in-app-payments">
+          <array>
+            <string>merchant.giftonix.app</string>
+          </array>
+        </config-file>       
         
         <icon height="1024" src="resources/ios/icon/icon-1024.png" width="1024" />
         <icon height="29" src="resources/ios/icon/icon-small.png" width="29" />
@@ -120,10 +120,6 @@
         <icon height="152" src="resources/ios/icon/icon-76@2x.png" width="152" />
         <icon height="167" src="resources/ios/icon/icon-167.png" width="167" />
         <icon height="167" src="resources/ios/icon/icon-83.5@2x.png" width="167" />
-        
-        <gap:plugin spec="https://github.com/osikes/cordova-plugin-dynamic-applepay-stripe" />
-        
-        
     </platform>
     <splash height="480" platform="ios" src="resources/ios/splash/Default~iphone.png" width="320" />
     <splash height="960" platform="ios" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
@@ -165,5 +161,5 @@
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
         <param name="ANDROID_PATH_PREFIX" value="/" />
     </gap:plugin>
-    
+    <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />
 </widget>
