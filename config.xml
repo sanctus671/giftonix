@@ -145,6 +145,7 @@
     <gap:plugin spec="https://github.com/pdyraga/cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.4.1" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="onesignal-cordova-plugin" spec="2.8.2" />
     <gap:plugin name="cordova-plugin-camera" source="npm" version="^4.1.0">
         <param name="CAMERA_USAGE_DESCRIPTION" value="We are using the Camera to take pictures for an avatar" />
         <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="We are using the Photo Library to get pictures for an avatar" />
