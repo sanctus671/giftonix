@@ -155,7 +155,7 @@
     <gap:plugin spec="https://github.com/hypery2k/cordova-email-plugin#master" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.1.0" />
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.6.2" />
-    <gap:plugin spec="https://github.com/sanctus671/ionic-plugin-deeplinks">
+    <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2"name="ionic-plugin-deeplinks" source="npm" version="^1.0.20">
         <param name="URL_SCHEME" value="giftonix" />
         <param name="DEEPLINK_SCHEME" value="https" />
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
