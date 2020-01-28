@@ -161,8 +161,4 @@
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
         <param name="ANDROID_PATH_PREFIX" value="/" />
     </gap:plugin>
-    <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />  
-    <gap:plugin name="cordova-android-support-gradle-release" source="npm" version="^3.0.1">
-        <param name="ANDROID_SUPPORT_VERSION" value="26.0.1" />
-    </gap:plugin>
 </widget>
