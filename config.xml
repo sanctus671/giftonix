@@ -93,17 +93,7 @@
                 <string>applinks:share.giftonix.com</string>
             </array>
         </config-file>
-		<config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
-			<array>
-				<string>applinks:share.giftonix.com</string>
-			</array>
-		</config-file>		
-		<config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
-			<array>
-				<string>applinks:share.giftonix.com</string>
-			</array>
-		</config-file>		
-        
+		
         <config-file target="*-Info.plist" parent="com.apple.developer.in-app-payments">
           <array>
             <string>merchant.giftonix.app</string>
@@ -165,7 +155,7 @@
     <gap:plugin spec="https://github.com/hypery2k/cordova-email-plugin#master" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.1.0" />
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.6.2" />
-    <gap:plugin name="ionic-plugin-deeplinks" source="npm" version="^1.0.20">
+    <gap:plugin spec="https://github.com/sanctus671/ionic-plugin-deeplinks">
         <param name="URL_SCHEME" value="giftonix" />
         <param name="DEEPLINK_SCHEME" value="https" />
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
