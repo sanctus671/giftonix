@@ -153,6 +153,6 @@
     <plugin name="cordova-plugin-file" spec="^6.0.2" />
     <gap:plugin spec="https://github.com/hypery2k/cordova-email-plugin#master" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.1.0" />
-    <plugin name="cordova-plugin-x-socialsharing" spec="^5.2.1" />
-	<plugin name="onesignal-cordova-plugin" spec="2.4.5" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="^5.6.2" />
+		<plugin name="onesignal-cordova-plugin" spec="2.7.0" />
 </widget>
