@@ -121,8 +121,6 @@
         <icon height="167" src="resources/ios/icon/icon-167.png" width="167" />
         <icon height="167" src="resources/ios/icon/icon-83.5@2x.png" width="167" />
 		
-		<plugin name="onesignal-cordova-plugin" spec="2.7.0" />
-		
     </platform>
     <splash height="480" platform="ios" src="resources/ios/splash/Default~iphone.png" width="320" />
     <splash height="960" platform="ios" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
@@ -164,5 +162,7 @@
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
         <param name="ANDROID_PATH_PREFIX" value="/" />
     </gap:plugin>
+    
+    <plugin name="onesignal-cordova-plugin" spec="2.3.3" />
     <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />  
 </widget>
