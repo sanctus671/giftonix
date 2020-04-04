@@ -59,6 +59,8 @@
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_round.png" target="res/mipmap-xxxhdpi-v4/launcher_round.png" />
         <resource-file src="resources/android/icon/mipmap-xxxhdpi/launcher_foreground.png" target="res/mipmap-xxxhdpi-v4/launcher_foreground.png" />
         <resource-file src="resources/android/styles.xml" target="res/values/styles.xml" />
+    
+        <plugin name="onesignal-cordova-plugin" spec="2.3.3" />
     </platform>
     <splash density="port-ldpi" platform="android" src="resources/android/splash/splash-port-ldpi.png" />
     <splash density="port-mdpi" platform="android" src="resources/android/splash/splash-port-mdpi.png" />
@@ -120,7 +122,10 @@
         <icon height="152" src="resources/ios/icon/icon-76@2x.png" width="152" />
         <icon height="167" src="resources/ios/icon/icon-167.png" width="167" />
         <icon height="167" src="resources/ios/icon/icon-83.5@2x.png" width="167" />
-		
+	
+        
+        <plugin name="onesignal-cordova-plugin" spec="2.7.0" />
+        	
     </platform>
     <splash height="480" platform="ios" src="resources/ios/splash/Default~iphone.png" width="320" />
     <splash height="960" platform="ios" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
@@ -162,7 +167,5 @@
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
         <param name="ANDROID_PATH_PREFIX" value="/" />
     </gap:plugin>
-    
-    <plugin name="onesignal-cordova-plugin" spec="2.3.3" />
     <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />  
 </widget>
