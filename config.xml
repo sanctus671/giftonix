@@ -166,6 +166,6 @@
         <param name="DEEPLINK_SCHEME" value="https" />
         <param name="DEEPLINK_HOST" value="share.giftonix.com" />
         <param name="ANDROID_PATH_PREFIX" value="/" />
-    </gap:plugin>  
-    <plugin name="cordova-plugin-applepay"/>
+    </gap:plugin>
+    <gap:plugin spec="https://github.com/sanctus671/cordova-plugin-stripe.git#v2" />  
 </widget>
